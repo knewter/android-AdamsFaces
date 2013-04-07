@@ -7,30 +7,30 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends Activity {
 
-  private Button mGracie;
-  private Button mMatthew;
-  private Button mJosh;
-  private Button mKristen;
+  private ImageButton mGracie;
+  private ImageButton mMatthew;
+  private ImageButton mJosh;
+  private ImageButton mKristen;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    mGracie = (Button) findViewById(R.id.btnGracie);
+    mGracie = (ImageButton) findViewById(R.id.btnGracie);
     mGracie.setOnClickListener(new SoundClickListener(R.raw.graciesound));
 
-    mMatthew = (Button) findViewById(R.id.btnMatthew);
+    mMatthew = (ImageButton) findViewById(R.id.btnMatthew);
     mMatthew.setOnClickListener(new SoundClickListener(R.raw.matthewsound));
 
-    mJosh = (Button) findViewById(R.id.btnJosh);
+    mJosh = (ImageButton) findViewById(R.id.btnJosh);
     mJosh.setOnClickListener(new SoundClickListener(R.raw.joshsound));
 
-    mKristen = (Button) findViewById(R.id.btnKristen);
+    mKristen = (ImageButton) findViewById(R.id.btnKristen);
     mKristen.setOnClickListener(new SoundClickListener(R.raw.kristensound));
   }
 

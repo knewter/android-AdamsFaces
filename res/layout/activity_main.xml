@@ -7,23 +7,39 @@
     android:rowCount="2"
     android:useDefaultMargins="true" >
 
-    <Button
+    <ImageButton
         android:id="@+id/btnGracie"
         android:layout_gravity="left"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/graciefacie"
         android:text="Gracie" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnMatthew"
         android:layout_gravity="left"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mattiefacie"
         android:text="Matthew" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnJosh"
         android:layout_gravity="left"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/joshfacie"
         android:text="Josh" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnKristen"
+        android:src="@drawable/kristenfacie"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:scaleType="fitCenter"
         android:layout_gravity="left"
         android:text="Kristen" />
 
