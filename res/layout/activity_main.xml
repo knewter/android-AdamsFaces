@@ -1,0 +1,30 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:columnCount="2"
+    android:columnOrderPreserved="false"
+    android:rowCount="2"
+    android:useDefaultMargins="true" >
+
+    <Button
+        android:id="@+id/btnGracie"
+        android:layout_gravity="left"
+        android:text="Gracie" />
+
+    <Button
+        android:id="@+id/btnMatthew"
+        android:layout_gravity="left"
+        android:text="Matthew" />
+
+    <Button
+        android:id="@+id/btnJosh"
+        android:layout_gravity="left"
+        android:text="Josh" />
+
+    <Button
+        android:id="@+id/btnKristen"
+        android:layout_gravity="left"
+        android:text="Kristen" />
+
+</GridLayout>
